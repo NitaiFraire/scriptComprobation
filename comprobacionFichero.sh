@@ -2,7 +2,7 @@
 
 read -p "Intriduzca una ruta: " ruta
 
-# si la ruta o archivo introducido no existe
+# si la ruta o archivo introducido no existe en el directorio
 if [ ! -e $ruta ]; then
 	echo "Esta no ruta existe"
 	exit 1
